@@ -1,0 +1,36 @@
+.profilr{
+    position: relative;
+}
+.profilr:hover .bio{
+    opacity: 1;
+}
+.profilr .bio{
+    font-family: roboto,arial;
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    flex-direction: row;
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+.bio-name1{
+    text-decoration: none;
+    margin-top: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-items: center;
+}
+.bio-subscribe{
+    text-decoration: none;
+    margin-bottom: 15px;
+    padding-right: 10px;
+    font-size: small;
+    color: gray;
+}

@@ -1,0 +1,18 @@
+p{
+    font-family: roboto, arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+body{
+    margin:0px;
+    padding-top: 80px;
+    background-color: #f8f8f8;
+}
+.link-style, .link-style1{
+    text-decoration: none;
+    color: black;
+}
+.resize{
+    display: flex;
+    flex:1;
+}
